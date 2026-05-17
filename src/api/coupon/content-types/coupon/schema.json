@@ -16,10 +16,7 @@
     },
     "type": {
       "type": "enumeration",
-      "enum": [
-        "code ,",
-        "deal"
-      ]
+      "enum": ["code", "deal"]
     },
     "title": {
       "type": "string"
@@ -41,9 +38,7 @@
     },
     "expiry_status": {
       "type": "enumeration",
-      "enum": [
-        "active,limited,expired"
-      ]
+      "enum": ["active", "limited", "expired"]
     },
     "expiry_date": {
       "type": "datetime"

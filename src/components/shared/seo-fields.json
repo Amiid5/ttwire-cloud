@@ -15,7 +15,7 @@
       "type": "text"
     },
     "keywords": {
-      "type": "text"
+      "type": "json"
     },
     "og_image": {
       "type": "string"
