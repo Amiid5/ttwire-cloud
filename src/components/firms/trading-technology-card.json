@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_firms_trading_technology_cards",
+  "info": {
+    "displayName": "trading-technology-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "component",
+      "component": "firms.technology-row",
+      "repeatable": true
+    },
+    "footer_text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

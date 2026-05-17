@@ -32,9 +32,7 @@
     },
     "store_status": {
       "type": "enumeration",
-      "enum": [
-        "active,inactive"
-      ]
+      "enum": ["active", "inactive"]
     },
     "rating_score": {
       "type": "decimal"

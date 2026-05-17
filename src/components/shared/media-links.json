@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_media_links",
+  "info": {
+    "displayName": "media-links",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "twitter": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "discord": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

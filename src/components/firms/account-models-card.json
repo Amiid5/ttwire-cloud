@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_firms_account_models_cards",
+  "info": {
+    "displayName": "account-models-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "component",
+      "component": "firms.account-row",
+      "repeatable": true
+    },
+    "footer_text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

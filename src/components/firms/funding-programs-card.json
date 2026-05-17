@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_firms_funding_programs_cards",
+  "info": {
+    "displayName": "funding-programs-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "component",
+      "component": "firms.program-row",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

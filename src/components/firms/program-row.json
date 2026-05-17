@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_firms_program_rows",
+  "info": {
+    "displayName": "program-row"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

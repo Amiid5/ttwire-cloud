@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_firms_payments_payout_cards",
+  "info": {
+    "displayName": "payments-payout-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "inbound_badge": {
+      "type": "string"
+    },
+    "inbound_sections": {
+      "type": "component",
+      "component": "firms.payment-section-item",
+      "repeatable": true
+    },
+    "payout": {
+      "type": "component",
+      "component": "firms.payout-section",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

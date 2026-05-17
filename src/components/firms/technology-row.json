@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_firms_technology_rows",
+  "info": {
+    "displayName": "technology-row"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "systems": {
+      "type": "string"
+    },
+    "access": {
+      "type": "string"
+    },
+    "status_type": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

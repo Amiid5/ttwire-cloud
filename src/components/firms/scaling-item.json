@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_firms_scaling_items",
+  "info": {
+    "displayName": "scaling-item"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

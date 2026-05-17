@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_faq_cards",
+  "info": {
+    "displayName": "faq-card",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "component",
+      "component": "shared.faq-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

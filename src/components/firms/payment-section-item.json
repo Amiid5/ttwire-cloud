@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_firms_payment_section_items",
+  "info": {
+    "displayName": "payment-section-item"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

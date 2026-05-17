@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_firms_payout_sections",
+  "info": {
+    "displayName": "payout-section"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "channels": {
+      "type": "json"
+    },
+    "cycle": {
+      "type": "string"
+    },
+    "minimum": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

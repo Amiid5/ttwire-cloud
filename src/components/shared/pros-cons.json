@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_pros_cons",
+  "info": {
+    "displayName": "pros-cons"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "pros": {
+      "type": "json"
+    },
+    "cons": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

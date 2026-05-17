@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_seo_fields",
+  "info": {
+    "displayName": "seo-fields"
+  },
+  "options": {},
+  "attributes": {
+    "h1_title": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "og_image": {
+      "type": "string"
+    },
+    "og_title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
