@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_firms_shared_seo_fields",
+  "info": {
+    "displayName": "seo-fields"
+  },
+  "options": {},
+  "attributes": {
+    "h1_title": { "type": "string" },
+    "meta_title": { "type": "string" },
+    "meta_description": { "type": "text" },
+    "keywords": { "type": "json" },
+    "og_image": { "type": "string" },
+    "og_title": { "type": "string" },
+    "og_description": { "type": "text" },
+    "og_type": { "type": "string" },
+    "og_url": { "type": "string" },
+    "twitter_card": { "type": "string" },
+    "twitter_title": { "type": "string" },
+    "twitter_description": { "type": "text" },
+    "twitter_image": { "type": "string" },
+    "twitter_site": { "type": "string" },
+    "canonical_url": { "type": "string" },
+    "robots": { "type": "string" },
+    "schema_markup": { "type": "json" }
+  },
+  "config": {}
+}

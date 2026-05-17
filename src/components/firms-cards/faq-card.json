@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_shared_faq_cards",
+  "collectionName": "components_firms_cards_faq_cards",
   "info": {
     "displayName": "faq-card",
     "icon": "clock"
@@ -9,9 +9,12 @@
     "title": {
       "type": "string"
     },
+    "badge": {
+      "type": "string"
+    },
     "questions": {
       "type": "component",
-      "component": "shared.faq-item",
+      "component": "firms-items.faq-item",
       "repeatable": true
     }
   },

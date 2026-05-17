@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_firms_items_assets_items",
+  "info": {
+    "displayName": "assets-items"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "value": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

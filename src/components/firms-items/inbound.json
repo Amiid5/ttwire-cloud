@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_firms_funding_programs_cards",
+  "collectionName": "components_firms_items_inbounds",
   "info": {
-    "displayName": "funding-programs-card"
+    "displayName": " Inbound"
   },
   "options": {},
   "attributes": {
@@ -10,7 +10,7 @@
     },
     "rows": {
       "type": "component",
-      "component": "firms.program-row",
+      "component": "firms-items.fee-item",
       "repeatable": true
     }
   },

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_firms_items_trading_flexibility_rows",
+  "info": {
+    "displayName": "Trading_Flexibility_rows"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "value": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

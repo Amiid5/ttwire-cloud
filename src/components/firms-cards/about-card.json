@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_shared_about_cards",
+  "collectionName": "components_firms_cards_about_cards",
   "info": {
-    "displayName": "about-card",
-    "icon": "dashboard"
+    "displayName": "About-card"
   },
   "options": {},
   "attributes": {

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_firms_cards_economics_scaling_cards",
+  "info": {
+    "displayName": "economics_scaling_card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "fee_card": {
+      "type": "component",
+      "component": "firms-cards.fee-card",
+      "repeatable": false
+    },
+    "assets_card": {
+      "type": "component",
+      "component": "firms-cards.assets-card",
+      "repeatable": false
+    },
+    "scaling_card": {
+      "type": "component",
+      "component": "firms-cards.scaling-card",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

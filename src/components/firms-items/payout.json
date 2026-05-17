@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_firms_items_payouts",
+  "info": {
+    "displayName": "Payout"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "component",
+      "component": "firms-items.assets-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_firms_items_pros_cons_items",
+  "info": {
+    "displayName": "pros-cons-item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pros": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

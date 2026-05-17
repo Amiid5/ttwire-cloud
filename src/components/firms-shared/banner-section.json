@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_shared_banner_sections",
+  "collectionName": "components_firms_shared_banner_sections",
   "info": {
-    "displayName": "banner-section",
-    "icon": "apps"
+    "displayName": "banner_section"
   },
   "options": {},
   "attributes": {
@@ -29,7 +28,7 @@
     },
     "media": {
       "type": "component",
-      "component": "shared.media-links",
+      "component": "firms-shared.media-links",
       "repeatable": false
     }
   },

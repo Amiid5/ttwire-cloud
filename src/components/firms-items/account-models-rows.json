@@ -1,17 +1,17 @@
 {
-  "collectionName": "components_firms_scaling_items",
+  "collectionName": "components_firms_items_account_models_rows",
   "info": {
-    "displayName": "scaling-item"
+    "displayName": "account-models-rows"
   },
   "options": {},
   "attributes": {
-    "label": {
+    "account": {
       "type": "string"
     },
-    "value": {
+    "target": {
       "type": "string"
     },
-    "type": {
+    "risk": {
       "type": "string"
     }
   },

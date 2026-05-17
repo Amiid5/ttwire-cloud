@@ -1,17 +1,11 @@
 {
-  "collectionName": "components_firms_program_rows",
+  "collectionName": "components_firms_items_funding_programs_rows",
   "info": {
-    "displayName": "program-row"
+    "displayName": "funding-programs-rows"
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "headers": {
-      "type": "json"
-    },
-    "name": {
+    "Program": {
       "type": "string"
     },
     "size": {

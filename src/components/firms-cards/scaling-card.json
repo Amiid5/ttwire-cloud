@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_firms_account_models_cards",
+  "collectionName": "components_firms_cards_scaling_cards",
   "info": {
-    "displayName": "account-models-card"
+    "displayName": "scaling-card"
   },
   "options": {},
   "attributes": {
@@ -10,11 +10,8 @@
     },
     "rows": {
       "type": "component",
-      "component": "firms.account-row",
+      "component": "firms-items.fee-item",
       "repeatable": true
-    },
-    "footer_text": {
-      "type": "string"
     }
   },
   "config": {}

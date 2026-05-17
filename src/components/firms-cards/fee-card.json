@@ -1,16 +1,16 @@
 {
-  "collectionName": "components_firms_trading_flexibility_cards",
+  "collectionName": "components_firms_cards_fee_cards",
   "info": {
-    "displayName": "trading-flexibility-card"
+    "displayName": "fee-card"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "items": {
+    "rows": {
       "type": "component",
-      "component": "firms.flexibility-item",
+      "component": "firms-items.fee-item",
       "repeatable": true
     }
   },

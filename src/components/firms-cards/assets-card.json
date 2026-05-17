@@ -1,16 +1,16 @@
 {
-  "collectionName": "components_firms_risk_managment_cards",
+  "collectionName": "components_firms_cards_assets_cards",
   "info": {
-    "displayName": "risk-managment-card"
+    "displayName": "assets-card"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "items": {
+    "rows": {
       "type": "component",
-      "component": "firms.flexibility-item",
+      "component": "firms-items.assets-items",
       "repeatable": true
     }
   },

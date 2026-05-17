@@ -48,62 +48,62 @@
     },
     "banner_section": {
       "type": "component",
-      "component": "shared.banner-section",
+      "component": "firms-shared.banner-section",
       "repeatable": false
     },
     "about_card": {
       "type": "component",
-      "component": "shared.about-card",
+      "component": "firms-cards.about-card",
       "repeatable": false
     },
     "seo": {
       "type": "component",
-      "component": "shared.seo-fields",
+      "component": "firms-shared.seo-fields",
       "repeatable": false
     },
     "pros_cons_card": {
       "type": "component",
-      "component": "shared.pros-cons",
+      "component": "firms-cards.pros-cons-card",
       "repeatable": false
     },
     "faq_card": {
       "type": "component",
-      "component": "shared.faq-card",
+      "component": "firms-cards.faq-card",
       "repeatable": false
     },
     "funding_programs_card": {
       "type": "component",
-      "component": "firms.funding-programs-card",
+      "component": "firms-cards.funding-programs-card",
       "repeatable": false
     },
     "trading_flexibility_card": {
       "type": "component",
-      "component": "firms.trading-flexibility-card",
+      "component": "firms-cards.trading-flexibility-card",
       "repeatable": false
     },
-    "risk_managment_card": {
+    "risk_management_card": {
       "type": "component",
-      "component": "firms.risk-managment-card",
+      "component": "firms-cards.risk-management-card",
       "repeatable": false
     },
     "account_models_card": {
       "type": "component",
-      "component": "firms.account-models-card",
+      "component": "firms-cards.account-models-card",
       "repeatable": false
     },
     "trading_technology_card": {
       "type": "component",
-      "component": "firms.trading-technology-card",
+      "component": "firms-cards.trading-technology-card",
       "repeatable": false
     },
     "economics_scaling_card": {
       "type": "component",
-      "component": "firms.economics-scaling-card",
+      "component": "firms-cards.economics-scaling-card",
       "repeatable": false
     },
     "payments_payouts_card": {
       "type": "component",
-      "component": "firms.payments-payout-card",
+      "component": "firms-cards.payments-payouts-card",
       "repeatable": false
     },
     "coupons": {

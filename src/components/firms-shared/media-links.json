@@ -1,20 +1,21 @@
 {
-  "collectionName": "components_firms_technology_rows",
+  "collectionName": "components_firms_shared_media_links",
   "info": {
-    "displayName": "technology-row"
+    "displayName": "media-links",
+    "icon": "attachment"
   },
   "options": {},
   "attributes": {
-    "category": {
+    "twitter": {
       "type": "string"
     },
-    "systems": {
+    "instagram": {
       "type": "string"
     },
-    "access": {
+    "facebook": {
       "type": "string"
     },
-    "status_type": {
+    "discord": {
       "type": "string"
     }
   },
