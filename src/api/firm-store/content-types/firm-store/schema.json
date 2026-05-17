@@ -1,0 +1,118 @@
+{
+  "kind": "collectionType",
+  "collectionName": "firm_stores",
+  "info": {
+    "singularName": "firm-store",
+    "pluralName": "firm-stores",
+    "displayName": "firm-store"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo_url": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "subcategory": {
+      "type": "string"
+    },
+    "store_status": {
+      "type": "enumeration",
+      "enum": [
+        "active,inactive"
+      ]
+    },
+    "rating_score": {
+      "type": "decimal"
+    },
+    "rating_count": {
+      "type": "integer"
+    },
+    "last_verified_at": {
+      "type": "datetime"
+    },
+    "h1_title": {
+      "type": "string"
+    },
+    "banner_section": {
+      "type": "component",
+      "component": "shared.banner-section",
+      "repeatable": false
+    },
+    "about_card": {
+      "type": "component",
+      "component": "shared.about-card",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo-fields",
+      "repeatable": false
+    },
+    "pros_cons_card": {
+      "type": "component",
+      "component": "shared.pros-cons",
+      "repeatable": false
+    },
+    "faq_card": {
+      "type": "component",
+      "component": "shared.faq-card",
+      "repeatable": false
+    },
+    "funding_programs_card": {
+      "type": "component",
+      "component": "firms.funding-programs-card",
+      "repeatable": false
+    },
+    "trading_flexibility_card": {
+      "type": "component",
+      "component": "firms.trading-flexibility-card",
+      "repeatable": false
+    },
+    "risk_managment_card": {
+      "type": "component",
+      "component": "firms.risk-managment-card",
+      "repeatable": false
+    },
+    "account_models_card": {
+      "type": "component",
+      "component": "firms.account-models-card",
+      "repeatable": false
+    },
+    "trading_technology_card": {
+      "type": "component",
+      "component": "firms.trading-technology-card",
+      "repeatable": false
+    },
+    "economics_scaling_card": {
+      "type": "component",
+      "component": "firms.economics-scaling-card",
+      "repeatable": false
+    },
+    "payments_payouts_card": {
+      "type": "component",
+      "component": "firms.payments-payout-card",
+      "repeatable": false
+    },
+    "coupons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::coupon.coupon",
+      "mappedBy": "firm_store"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coupons",
+  "info": {
+    "singularName": "coupon",
+    "pluralName": "coupons",
+    "displayName": "coupon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "code ,",
+        "deal"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "discount_amount": {
+      "type": "string"
+    },
+    "discount_label": {
+      "type": "string"
+    },
+    "is_verified": {
+      "type": "boolean"
+    },
+    "is_exclusive": {
+      "type": "boolean"
+    },
+    "expiry_status": {
+      "type": "enumeration",
+      "enum": [
+        "active,limited,expired"
+      ]
+    },
+    "expiry_date": {
+      "type": "datetime"
+    },
+    "seccess_rate": {
+      "type": "integer"
+    },
+    "popularity_tag": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "usage_count_text": {
+      "type": "string"
+    },
+    "conditions_tag": {
+      "type": "text"
+    },
+    "anchor": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "canonical_url": {
+      "type": "string"
+    },
+    "firm_store": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::firm-store.firm-store",
+      "inversedBy": "coupons"
+    }
+  }
+}
