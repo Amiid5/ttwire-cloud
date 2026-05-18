@@ -71,7 +71,7 @@
       "type": "string"
     },
     "meta_description": {
-      "type": "string"
+      "type": "text"
     },
     "canonical_url": {
       "type": "string"
