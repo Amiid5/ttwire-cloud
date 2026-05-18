@@ -15,6 +15,9 @@
       "type": "component",
       "component": "firms-items.trading-technology-rows",
       "repeatable": true
+    },
+    "footer": {
+      "type": "string"
     }
   },
   "config": {}

@@ -17,6 +17,7 @@ export interface FirmsCardsAccountModelsCard extends Struct.ComponentSchema {
     displayName: 'account_models_card';
   };
   attributes: {
+    footer: Schema.Attribute.String;
     headers: Schema.Attribute.JSON;
     rows: Schema.Attribute.Component<'firms-items.account-models-rows', true>;
     title: Schema.Attribute.String;
@@ -155,6 +156,7 @@ export interface FirmsCardsTradingTechnologyCard
     displayName: 'trading_technology_card';
   };
   attributes: {
+    footer: Schema.Attribute.String;
     headers: Schema.Attribute.JSON;
     rows: Schema.Attribute.Component<
       'firms-items.trading-technology-rows',

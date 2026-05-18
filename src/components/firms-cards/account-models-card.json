@@ -15,6 +15,9 @@
       "type": "component",
       "component": "firms-items.account-models-rows",
       "repeatable": true
+    },
+    "footer": {
+      "type": "string"
     }
   },
   "config": {}
