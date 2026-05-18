@@ -16,10 +16,7 @@
     },
     "type": {
       "type": "enumeration",
-      "enum": [
-        "code",
-        "deal"
-      ]
+      "enum": ["code", "deal"]
     },
     "title": {
       "type": "string"
@@ -41,16 +38,18 @@
     },
     "expiry_status": {
       "type": "enumeration",
-      "enum": [
-        "active",
-        "limited",
-        "expired"
-      ]
+      "enum": ["active", "limited", "expired"]
     },
     "expiry_date": {
       "type": "datetime"
     },
-    "seccess_rate": {
+    "starts_at": {
+      "type": "datetime"
+    },
+    "success_rate": {
+      "type": "integer"
+    },
+    "sort_order": {
       "type": "integer"
     },
     "popularity_tag": {

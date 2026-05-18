@@ -481,7 +481,9 @@ export interface ApiCouponCoupon extends Struct.CollectionTypeSchema {
     meta_title: Schema.Attribute.String;
     popularity_tag: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    seccess_rate: Schema.Attribute.Integer;
+    sort_order: Schema.Attribute.Integer;
+    starts_at: Schema.Attribute.DateTime;
+    success_rate: Schema.Attribute.Integer;
     title: Schema.Attribute.String;
     type: Schema.Attribute.Enumeration<['code', 'deal']>;
     updatedAt: Schema.Attribute.DateTime;
