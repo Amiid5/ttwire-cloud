@@ -13,6 +13,9 @@
     },
     "risk": {
       "type": "string"
+    },
+    "color": {
+      "type": "string"
     }
   },
   "config": {}
