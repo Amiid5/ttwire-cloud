@@ -15,9 +15,6 @@
       "type": "component",
       "component": "firms-items.funding-programs-rows",
       "repeatable": true
-    },
-    "color": {
-      "type": "string"
     }
   },
   "config": {}
