@@ -477,7 +477,7 @@ export interface ApiCouponCoupon extends Struct.CollectionTypeSchema {
       'api::coupon.coupon'
     > &
       Schema.Attribute.Private;
-    meta_description: Schema.Attribute.String;
+    meta_description: Schema.Attribute.Text;
     meta_title: Schema.Attribute.String;
     popularity_tag: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;

@@ -17,6 +17,7 @@ export interface FirmsCardsAccountModelsCard extends Struct.ComponentSchema {
     displayName: 'account_models_card';
   };
   attributes: {
+    color: Schema.Attribute.String;
     footer: Schema.Attribute.String;
     headers: Schema.Attribute.JSON;
     rows: Schema.Attribute.Component<'firms-items.account-models-rows', true>;
@@ -78,6 +79,7 @@ export interface FirmsCardsFundingProgramsCard extends Struct.ComponentSchema {
     displayName: 'funding_programs_card';
   };
   attributes: {
+    color: Schema.Attribute.String;
     headers: Schema.Attribute.JSON;
     rows: Schema.Attribute.Component<'firms-items.funding-programs-rows', true>;
     title: Schema.Attribute.String;
