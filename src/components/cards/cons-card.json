@@ -9,9 +9,7 @@
       "type": "string"
     },
     "cons": {
-      "type": "component",
-      "component": "items.cons-item",
-      "repeatable": false
+      "type": "json"
     }
   },
   "config": {}

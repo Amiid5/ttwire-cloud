@@ -9,9 +9,7 @@
       "type": "string"
     },
     "pros": {
-      "type": "component",
-      "component": "items.pros-item",
-      "repeatable": false
+      "type": "json"
     }
   },
   "config": {}

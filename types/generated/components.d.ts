@@ -17,7 +17,7 @@ export interface CardsConsCard extends Struct.ComponentSchema {
     displayName: 'cons-card';
   };
   attributes: {
-    cons: Schema.Attribute.Component<'items.cons-item', false>;
+    cons: Schema.Attribute.JSON;
     title: Schema.Attribute.String;
   };
 }
@@ -40,7 +40,7 @@ export interface CardsProsCard extends Struct.ComponentSchema {
     displayName: 'pros-card';
   };
   attributes: {
-    pros: Schema.Attribute.Component<'items.pros-item', false>;
+    pros: Schema.Attribute.JSON;
     title: Schema.Attribute.String;
   };
 }
@@ -62,17 +62,6 @@ export interface CardsQuickStatsCard extends Struct.ComponentSchema {
   };
 }
 
-export interface ItemsConsItem extends Struct.ComponentSchema {
-  collectionName: 'components_items_cons_items';
-  info: {
-    displayName: 'cons-item';
-  };
-  attributes: {
-    pros: Schema.Attribute.JSON;
-    title: Schema.Attribute.String;
-  };
-}
-
 export interface ItemsFaqItem extends Struct.ComponentSchema {
   collectionName: 'components_items_faq_items';
   info: {
@@ -81,17 +70,6 @@ export interface ItemsFaqItem extends Struct.ComponentSchema {
   attributes: {
     answer: Schema.Attribute.Text;
     question: Schema.Attribute.String;
-  };
-}
-
-export interface ItemsProsItem extends Struct.ComponentSchema {
-  collectionName: 'components_items_pros_items';
-  info: {
-    displayName: 'pros-item';
-  };
-  attributes: {
-    pros: Schema.Attribute.JSON;
-    title: Schema.Attribute.String;
   };
 }
 
@@ -167,9 +145,7 @@ declare module '@strapi/strapi' {
       'cards.faq-card': CardsFaqCard;
       'cards.pros-card': CardsProsCard;
       'cards.quick-stats-card': CardsQuickStatsCard;
-      'items.cons-item': ItemsConsItem;
       'items.faq-item': ItemsFaqItem;
-      'items.pros-item': ItemsProsItem;
       'items.similar-stores-items': ItemsSimilarStoresItems;
       'shared.banner-section': SharedBannerSection;
       'shared.media-links': SharedMediaLinks;
