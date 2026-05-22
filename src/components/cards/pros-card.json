@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cards_pros_cards",
+  "info": {
+    "displayName": "pros-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pros": {
+      "type": "component",
+      "component": "items.pros-item",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

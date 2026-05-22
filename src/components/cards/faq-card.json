@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_firms_cards_faq_cards",
+  "collectionName": "components_cards_faq_cards",
   "info": {
-    "displayName": "faq-card",
-    "icon": "clock"
+    "displayName": "faq-card"
   },
   "options": {},
   "attributes": {
@@ -14,7 +13,7 @@
     },
     "questions": {
       "type": "component",
-      "component": "firms-items.faq-item",
+      "component": "items.faq-item",
       "repeatable": true
     }
   },

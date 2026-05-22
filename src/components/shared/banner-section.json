@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_banner_sections",
+  "info": {
+    "displayName": "banner-section"
+  },
+  "options": {},
+  "attributes": {
+    "coupons_count": {
+      "type": "string"
+    },
+    "rating_score": {
+      "type": "decimal"
+    },
+    "rating_count": {
+      "type": "integer"
+    },
+    "ceo": {
+      "type": "string"
+    },
+    "founded": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "established": {
+      "type": "string"
+    },
+    "media": {
+      "type": "component",
+      "component": "shared.media-links",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

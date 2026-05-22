@@ -1,14 +1,14 @@
 {
-  "collectionName": "components_firms_items_assets_items",
+  "collectionName": "components_items_pros_items",
   "info": {
-    "displayName": "assets-items"
+    "displayName": "pros-item"
   },
   "options": {},
   "attributes": {
-    "type": {
+    "title": {
       "type": "string"
     },
-    "value": {
+    "pros": {
       "type": "json"
     }
   },

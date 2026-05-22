@@ -465,10 +465,6 @@ export interface ApiCouponCoupon extends Struct.CollectionTypeSchema {
     expiry_status: Schema.Attribute.Enumeration<
       ['active', 'limited', 'expired']
     >;
-    firm_store: Schema.Attribute.Relation<
-      'manyToOne',
-      'api::firm-store.firm-store'
-    >;
     is_exclusive: Schema.Attribute.Boolean;
     is_verified: Schema.Attribute.Boolean;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
@@ -483,6 +479,7 @@ export interface ApiCouponCoupon extends Struct.CollectionTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     sort_order: Schema.Attribute.Integer;
     starts_at: Schema.Attribute.DateTime;
+    store: Schema.Attribute.Relation<'manyToOne', 'api::store.store'>;
     success_rate: Schema.Attribute.Integer;
     title: Schema.Attribute.String;
     type: Schema.Attribute.Enumeration<['code', 'deal']>;
@@ -494,77 +491,45 @@ export interface ApiCouponCoupon extends Struct.CollectionTypeSchema {
   };
 }
 
-export interface ApiFirmStoreFirmStore extends Struct.CollectionTypeSchema {
-  collectionName: 'firm_stores';
+export interface ApiStoreStore extends Struct.CollectionTypeSchema {
+  collectionName: 'stores';
   info: {
-    displayName: 'firm-store';
-    pluralName: 'firm-stores';
-    singularName: 'firm-store';
+    displayName: 'store';
+    pluralName: 'stores';
+    singularName: 'store';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    about_card: Schema.Attribute.Component<'firms-cards.about-card', false>;
-    account_models_card: Schema.Attribute.Component<
-      'firms-cards.account-models-card',
-      false
-    >;
-    banner_section: Schema.Attribute.Component<
-      'firms-shared.banner-section',
-      false
-    >;
+    about_card: Schema.Attribute.Component<'cards.about-card', false>;
+    banner_section: Schema.Attribute.Component<'shared.banner-section', false>;
     category: Schema.Attribute.String;
+    cons_card: Schema.Attribute.Component<'cards.cons-card', false>;
     coupons: Schema.Attribute.Relation<'oneToMany', 'api::coupon.coupon'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    economics_scaling_card: Schema.Attribute.Component<
-      'firms-cards.economics-scaling-card',
-      false
-    >;
-    faq_card: Schema.Attribute.Component<'firms-cards.faq-card', false>;
-    funding_programs_card: Schema.Attribute.Component<
-      'firms-cards.funding-programs-card',
-      false
-    >;
+    faq_card: Schema.Attribute.Component<'cards.faq-card', false>;
     h1_title: Schema.Attribute.String;
     last_verified_at: Schema.Attribute.DateTime;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
-    localizations: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::firm-store.firm-store'
-    > &
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::store.store'> &
       Schema.Attribute.Private;
     logo_url: Schema.Attribute.String;
     name: Schema.Attribute.String;
-    payments_payouts_card: Schema.Attribute.Component<
-      'firms-cards.payments-payouts-card',
-      false
-    >;
-    pros_cons_card: Schema.Attribute.Component<
-      'firms-cards.pros-cons-card',
-      false
-    >;
+    pros_card: Schema.Attribute.Component<'cards.pros-card', false>;
     publishedAt: Schema.Attribute.DateTime;
+    quick_stats_card: Schema.Attribute.Component<
+      'cards.quick-stats-card',
+      false
+    >;
     rating_count: Schema.Attribute.Integer;
     rating_score: Schema.Attribute.Decimal;
-    risk_management_card: Schema.Attribute.Component<
-      'firms-cards.risk-management-card',
-      false
-    >;
-    seo: Schema.Attribute.Component<'firms-shared.seo-fields', false>;
+    seo: Schema.Attribute.Component<'shared.seo-fields', false>;
     slug: Schema.Attribute.UID<'name'>;
     store_status: Schema.Attribute.Enumeration<['active', 'inactive']>;
     subcategory: Schema.Attribute.String;
-    trading_flexibility_card: Schema.Attribute.Component<
-      'firms-cards.trading-flexibility-card',
-      false
-    >;
-    trading_technology_card: Schema.Attribute.Component<
-      'firms-cards.trading-technology-card',
-      false
-    >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1084,7 +1049,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::coupon.coupon': ApiCouponCoupon;
-      'api::firm-store.firm-store': ApiFirmStoreFirmStore;
+      'api::store.store': ApiStoreStore;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

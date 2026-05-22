@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cards_cons_cards",
+  "info": {
+    "displayName": "cons-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cons": {
+      "type": "component",
+      "component": "items.cons-item",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

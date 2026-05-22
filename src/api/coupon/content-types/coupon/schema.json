@@ -16,7 +16,10 @@
     },
     "type": {
       "type": "enumeration",
-      "enum": ["code", "deal"]
+      "enum": [
+        "code",
+        "deal"
+      ]
     },
     "title": {
       "type": "string"
@@ -38,7 +41,11 @@
     },
     "expiry_status": {
       "type": "enumeration",
-      "enum": ["active", "limited", "expired"]
+      "enum": [
+        "active",
+        "limited",
+        "expired"
+      ]
     },
     "expiry_date": {
       "type": "datetime"
@@ -76,10 +83,10 @@
     "canonical_url": {
       "type": "string"
     },
-    "firm_store": {
+    "store": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::firm-store.firm-store",
+      "target": "api::store.store",
       "inversedBy": "coupons"
     }
   }

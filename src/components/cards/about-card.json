@@ -1,14 +1,14 @@
 {
-  "collectionName": "components_firms_items_faq_items",
+  "collectionName": "components_cards_about_cards",
   "info": {
-    "displayName": "faq-item"
+    "displayName": "about-card"
   },
   "options": {},
   "attributes": {
-    "question": {
+    "title": {
       "type": "string"
     },
-    "answer": {
+    "description": {
       "type": "text"
     }
   },

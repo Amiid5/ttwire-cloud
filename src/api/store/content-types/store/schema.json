@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stores",
+  "info": {
+    "singularName": "store",
+    "pluralName": "stores",
+    "displayName": "store"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo_url": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "subcategory": {
+      "type": "string"
+    },
+    "store_status": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "inactive"
+      ]
+    },
+    "rating_score": {
+      "type": "decimal"
+    },
+    "rating_count": {
+      "type": "integer"
+    },
+    "last_verified_at": {
+      "type": "datetime"
+    },
+    "h1_title": {
+      "type": "string"
+    },
+    "banner_section": {
+      "type": "component",
+      "component": "shared.banner-section",
+      "repeatable": false
+    },
+    "about_card": {
+      "type": "component",
+      "component": "cards.about-card",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo-fields",
+      "repeatable": false
+    },
+    "pros_card": {
+      "type": "component",
+      "component": "cards.pros-card",
+      "repeatable": false
+    },
+    "cons_card": {
+      "type": "component",
+      "component": "cards.cons-card",
+      "repeatable": false
+    },
+    "faq_card": {
+      "type": "component",
+      "component": "cards.faq-card",
+      "repeatable": false
+    },
+    "quick_stats_card": {
+      "type": "component",
+      "component": "cards.quick-stats-card",
+      "repeatable": false
+    },
+    "coupons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::coupon.coupon",
+      "mappedBy": "store"
+    }
+  }
+}

@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_firms_shared_banner_sections",
+  "collectionName": "components_cards_quick_stats_cards",
   "info": {
-    "displayName": "banner_section"
+    "displayName": "quick-Stats-card"
   },
   "options": {},
   "attributes": {
-    "coupons_count": {
+    "title": {
       "type": "string"
     },
     "rating_score": {
@@ -14,22 +14,20 @@
     "rating_count": {
       "type": "integer"
     },
-    "ceo": {
+    "active_coupons": {
       "type": "string"
     },
-    "founded": {
+    "status": {
       "type": "string"
     },
-    "location": {
+    "last_verified": {
       "type": "string"
     },
-    "established": {
+    "success_rate": {
       "type": "string"
     },
-    "media": {
-      "type": "component",
-      "component": "firms-shared.media-links",
-      "repeatable": false
+    "coupons_count": {
+      "type": "string"
     }
   },
   "config": {}

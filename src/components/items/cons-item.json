@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_firms_items_pros_cons_items",
+  "collectionName": "components_items_cons_items",
   "info": {
-    "displayName": "pros-cons-item"
+    "displayName": "cons-item"
   },
   "options": {},
   "attributes": {
