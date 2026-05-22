@@ -28,7 +28,6 @@ export interface CardsFaqCard extends Struct.ComponentSchema {
     displayName: 'faq-card';
   };
   attributes: {
-    badge: Schema.Attribute.String;
     questions: Schema.Attribute.Component<'items.faq-item', true>;
     title: Schema.Attribute.String;
   };

@@ -8,9 +8,6 @@
     "title": {
       "type": "string"
     },
-    "badge": {
-      "type": "string"
-    },
     "questions": {
       "type": "component",
       "component": "items.faq-item",
