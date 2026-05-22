@@ -18,13 +18,14 @@
       "type": "string"
     },
     "status": {
-      "type": "string"
+      "type": "enumeration",
+      "enum": ["active", "inactive"]
     },
     "last_verified": {
-      "type": "string"
+      "type": "datetime"
     },
     "success_rate": {
-      "type": "string"
+      "type": "integer"
     },
     "coupons_count": {
       "type": "string"
