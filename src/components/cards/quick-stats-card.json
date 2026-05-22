@@ -26,9 +26,6 @@
     },
     "success_rate": {
       "type": "integer"
-    },
-    "coupons_count": {
-      "type": "string"
     }
   },
   "config": {}
