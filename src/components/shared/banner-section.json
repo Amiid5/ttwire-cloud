@@ -23,6 +23,9 @@
     "location": {
       "type": "string"
     },
+    "city": {
+      "type": "string"
+    },
     "established": {
       "type": "string"
     },

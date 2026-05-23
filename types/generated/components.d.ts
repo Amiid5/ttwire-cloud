@@ -51,12 +51,11 @@ export interface CardsQuickStatsCard extends Struct.ComponentSchema {
   };
   attributes: {
     active_coupons: Schema.Attribute.String;
-    coupons_count: Schema.Attribute.String;
-    last_verified: Schema.Attribute.String;
+    last_verified: Schema.Attribute.DateTime;
     rating_count: Schema.Attribute.Integer;
     rating_score: Schema.Attribute.Decimal;
-    status: Schema.Attribute.String;
-    success_rate: Schema.Attribute.String;
+    status: Schema.Attribute.Enumeration<['active', 'inactive']>;
+    success_rate: Schema.Attribute.Integer;
     title: Schema.Attribute.String;
   };
 }
